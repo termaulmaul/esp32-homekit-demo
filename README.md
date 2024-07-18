@@ -9,7 +9,7 @@ docker pull espressif/idf:latest
 ```
 - At this point idf (ESP-IDF v5.4-dev-78-gd4cd437ede)
 ```
-git clone --recursive https://github.com/AchimPieters/esp32-homekit-demo.git
+git clone --recursive https://github.com/termaulmaul/esp32-homekit-demo.git
 ```
 ```
 docker run -it -v ~/esp32-homekit-demo:/project -w /project espressif/idf:latest
